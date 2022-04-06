@@ -1,0 +1,9 @@
+{
+    "name": "visiosoft/demodata-extension",
+    "type": "streams-addon",
+    "autoload": {
+        "psr-4": {
+            "Visiosoft\\DemodataExtension\\": "src/"
+        }
+    }
+}
