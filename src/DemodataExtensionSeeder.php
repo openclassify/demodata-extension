@@ -18,6 +18,7 @@ use Illuminate\Support\Facades\DB;
 use Symfony\Component\Console\Input\ArgvInput;
 use Visiosoft\AdvsModule\Adv\Command\DeleteInstaller;
 use Visiosoft\DemodataExtension\Seed\WidgetSeeder;
+use ZipArchive;
 
 class DemodataExtensionSeeder extends Seeder
 {
