@@ -117,15 +117,10 @@ class DemodataExtensionSeeder extends Seeder
                 'type' => 'anomaly.extension.url_link_type',
             ]
         );
-        file_put_contents(storage_path('advs.sql'), fopen(realpath(dirname(__DIR__)) . '/src/seed/data/advs.sql', 'r'));
-        file_put_contents(storage_path('settings.sql'), fopen(realpath(dirname(__DIR__)) . '/src/seed/data/settings.sql', 'r'));
-        file_put_contents(storage_path('categories.sql'), fopen(realpath(dirname(__DIR__)) . '/src/seed/data/categories.sql', 'r'));
-        file_put_contents(storage_path('images.zip'), fopen(realpath(dirname(__DIR__)) . '/src/seed/data/images.zip', 'r'));
-        file_put_contents(storage_path('cats.zip'), fopen(realpath(dirname(__DIR__)) . '/src/seed/data/cats.zip', 'r'));
         $application_reference = (new ArgvInput())->getParameterOption('--app', env('APPLICATION_REFERENCE', 'default'));
-        $categories = str_replace('{application_reference}', $application_reference, file_get_contents(storage_path('categories.sql')));
-        $advs = str_replace('{application_reference}', $application_reference, file_get_contents(storage_path('advs.sql')));
-        $settings = str_replace('{application_reference}', $application_reference, file_get_contents(storage_path('settings.sql')));
+        $categories = str_replace('{application_reference}', $application_reference, file_get_contents(realpath(dirname(__DIR__)) . '/src/seed/data/categories.sql'));
+        $advs = str_replace('{application_reference}', $application_reference, file_get_contents(realpath(dirname(__DIR__)) . '/src/seed/data/advs.sql'));
+        $settings = str_replace('{application_reference}', $application_reference, file_get_contents(realpath(dirname(__DIR__)) . '/src/seed/data/settings.sql'));
         Model::unguard();
         DB::unprepared($advs);
         DB::unprepared($categories);
