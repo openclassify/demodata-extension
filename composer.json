@@ -1,6 +1,22 @@
 {
     "name": "visiosoft/demodata-extension",
     "type": "streams-addon",
+    "authors": [
+        {
+            "name": "Visiosoft, LTD.",
+            "email": "support@visiosoft.com.tr",
+            "homepage": "https://visiosoft.com.tr/",
+            "role": "Owner"
+        },
+        {
+            "name": "Mostafa Moradi",
+            "email": "mostafa@visiosoft.com.tr",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "info@openclassify.com"
+    },
     "autoload": {
         "psr-4": {
             "Visiosoft\\DemodataExtension\\": "src/"
