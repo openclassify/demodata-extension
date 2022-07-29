@@ -8,7 +8,7 @@ SET sql_mode = 'NO_AUTO_VALUE_ON_ZERO';
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8mb4 */;
 
-INSERT INTO `{application_reference}_cats_category` (`id`, `sort_order`, `created_at`, `created_by_id`, `updated_at`, `updated_by_id`, `deleted_at`, `slug`, `parent_category_id`, `icon`, `seo_keyword`, `seo_description`, `level`, `level_at`, `count`, `count_at`) VALUES
+INSERT IGNORE INTO `{application_reference}_cats_category` (`id`, `sort_order`, `created_at`, `created_by_id`, `updated_at`, `updated_by_id`, `deleted_at`, `slug`, `parent_category_id`, `icon`, `seo_keyword`, `seo_description`, `level`, `level_at`, `count`, `count_at`) VALUES
 (1, NULL, '2019-03-27 16:20:51', NULL, NULL, NULL, NULL, 'antika_1', 7, NULL, NULL, NULL, 2, '2021-02-16 14:38:49', 0, '2021-02-16 14:38:51'),
 (2, NULL, '2019-03-27 16:20:51', NULL, NULL, NULL, NULL, 'bilgisayar_2', 7, NULL, NULL, NULL, 2, '2021-02-16 14:38:49', 12, '2021-02-16 14:38:51'),
 (3, NULL, '2019-03-27 16:20:51', NULL, NULL, NULL, NULL, 'elektrikli-ev-aletleri_3', 7, NULL, NULL, NULL, 2, '2021-02-16 14:38:49', 0, '2021-02-16 14:38:51'),
@@ -126,7 +126,7 @@ INSERT INTO `{application_reference}_cats_category` (`id`, `sort_order`, `create
 (240126, NULL, '2019-03-27 16:20:51', NULL, NULL, NULL, NULL, 'dans_240126', 218822, NULL, NULL, NULL, 2, '2021-02-16 14:38:49', 0, '2021-02-16 14:38:51'),
 (240127, NULL, '2019-03-27 16:20:51', NULL, NULL, NULL, NULL, 'tiyatro-oyunculuk_240127', 218822, NULL, NULL, NULL, 2, '2021-02-16 14:38:49', 0, '2021-02-16 14:38:51');
 
-INSERT INTO `{application_reference}_cats_category_translations` (`id`, `entry_id`, `created_at`, `created_by_id`, `updated_at`, `updated_by_id`, `locale`, `name`) VALUES
+INSERT IGNORE INTO `{application_reference}_cats_category_translations` (`id`, `entry_id`, `created_at`, `created_by_id`, `updated_at`, `updated_by_id`, `locale`, `name`) VALUES
 (1,	1,	'2020-10-27 09:43:13',	NULL,	NULL,	NULL,	'tr',	'Antika'),
 (2,	2,	'2020-10-27 09:43:13',	NULL,	NULL,	NULL,	'tr',	'Bilgisayar'),
 (3,	3,	'2020-10-27 09:43:13',	NULL,	NULL,	NULL,	'tr',	'Elektrikli Ev Aletleri'),
@@ -360,7 +360,7 @@ INSERT INTO `{application_reference}_cats_category_translations` (`id`, `entry_i
 (271997,	240126,	'2020-10-27 09:43:16',	NULL,	NULL,	NULL,	'en',	'Dance'),
 (271998,	240127,	'2020-10-27 09:43:16',	NULL,	NULL,	NULL,	'en',	'Tiyatro & Oyunculuk');
 
-INSERT INTO `{application_reference}_files_files` (`id`, `sort_order`, `created_at`, `created_by_id`, `updated_at`, `updated_by_id`, `deleted_at`, `name`, `disk_id`, `folder_id`, `extension`, `size`, `mime_type`, `entry_id`, `entry_type`, `keywords`, `height`, `width`, `alt_text`, `title`, `caption`, `description`, `str_id`) VALUES
+INSERT IGNORE INTO `{application_reference}_files_files` (`id`, `sort_order`, `created_at`, `created_by_id`, `updated_at`, `updated_by_id`, `deleted_at`, `name`, `disk_id`, `folder_id`, `extension`, `size`, `mime_type`, `entry_id`, `entry_type`, `keywords`, `height`, `width`, `alt_text`, `title`, `caption`, `description`, `str_id`) VALUES
 (99500167, 153, '2021-04-16 12:28:51', 1, '2021-04-16 12:28:51', 1, NULL, '7.png', 1, 6, 'png', 466846, 'image/png', NULL, 'Anomaly\\Streams\\Platform\\Model\\Files\\FilesCategoryIconEntryModel', NULL, '550', '900', NULL, NULL, NULL, NULL, '7.png'),
 (99500168, 153, '2021-04-16 12:28:51', 1, '2021-04-16 12:28:51', 1, NULL, '9.png', 1, 6, 'png', 466846, 'image/png', NULL, 'Anomaly\\Streams\\Platform\\Model\\Files\\FilesCategoryIconEntryModel', NULL, '550', '900', NULL, NULL, NULL, NULL, '9.png'),
 (99500169, 153, '2021-04-16 12:28:51', 1, '2021-04-16 12:28:51', 1, NULL, '39.png', 1, 6, 'png', 466846, 'image/png', NULL, 'Anomaly\\Streams\\Platform\\Model\\Files\\FilesCategoryIconEntryModel', NULL, '550', '900', NULL, NULL, NULL, NULL, '39.png'),

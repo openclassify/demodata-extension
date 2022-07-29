@@ -26,7 +26,7 @@ SET time_zone = "+00:00";
 -- Dumping data for table `default_cats_category_translations`
 --
 
-INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
+ INSERT IGNORE INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
 (241264, 1, 'en', 'Antiques'),
 (241265, 2, 'en', 'Computers'),
 (241266, 3, 'en', 'Electrical Appliances'),
@@ -1628,7 +1628,7 @@ INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `n
 (242862, 6222, 'en', 'Essentia'),
 (242863, 6223, 'en', 'GL'),
 (242864, 6224, 'en', 'GLS');
-INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
+ INSERT IGNORE INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
 (242865, 6226, 'en', 'Essentia'),
 (242866, 6227, 'en', 'CD'),
 (242867, 6228, 'en', 'Comfort'),
@@ -3217,7 +3217,7 @@ INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `n
 (244450, 14102, 'en', 'FB 112'),
 (244451, 14106, 'en', '35'),
 (244452, 14107, 'en', '72-77');
-INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
+ INSERT IGNORE INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
 (244453, 14108, 'en', '105'),
 (244454, 14109, 'en', '110-08/FHX (4x2)'),
 (244455, 14113, 'en', '145-22 (4x2)'),
@@ -4762,7 +4762,7 @@ INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `n
 (245994, 18901, 'en', 'Cafe'),
 (245995, 18903, 'en', 'Cafe & Bar'),
 (245996, 18912, 'en', 'Vodafone');
-INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
+ INSERT IGNORE INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
 (245997, 18913, 'en', '225'),
 (245998, 18914, 'en', 'Other'),
 (245999, 18917, 'en', 'Finnish Spitz'),
@@ -6167,7 +6167,7 @@ INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `n
 (247398, 23454, 'en', '300 C'),
 (247399, 23455, 'en', 'Grand Voyager'),
 (247400, 23456, 'en', 'Le Baron');
-INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
+ INSERT IGNORE INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
 (247401, 23457, 'en', 'Sebring'),
 (247402, 23458, 'en', 'Stratus'),
 (247403, 23459, 'en', 'Voyager'),
@@ -7657,7 +7657,7 @@ INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `n
 (248887, 89971, 'en', 'Other'),
 (248888, 89975, 'en', 'Hybrid'),
 (248889, 89977, 'en', 'Touch Viva');
-INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
+ INSERT IGNORE INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
 (248890, 89978, 'en', 'Touch 3G'),
 (248891, 89980, 'en', 'Touch HD'),
 (248892, 89981, 'en', 'D460'),
@@ -9210,7 +9210,7 @@ INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `n
 (250439, 93817, 'en', 'Sport'),
 (250440, 93830, 'en', 'Titanium CC'),
 (250441, 93835, 'en', 'C-Max');
-INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
+ INSERT IGNORE INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
 (250442, 93836, 'en', 'GTS 300'),
 (250443, 93843, 'en', 'Stairs'),
 (250444, 93848, 'en', 'Cybershot DSC T90'),
@@ -10724,7 +10724,7 @@ INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `n
 (251952, 112843, 'en', 'Tourneo Connect'),
 (251953, 112844, 'en', '75PS Deluxe'),
 (251954, 112846, 'en', '110PS GLX');
-INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
+ INSERT IGNORE INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
 (251955, 113000, 'en', 'Mercedes - Benz'),
 (251956, 113027, 'en', 'Vito'),
 (251957, 113031, 'en', '110 CDI'),
@@ -12088,7 +12088,7 @@ INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `n
 (253315, 116135, 'en', '1.9'),
 (253316, 116136, 'en', '70 S'),
 (253317, 116137, 'en', '420');
-INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
+ INSERT IGNORE INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
 (253318, 116138, 'en', 'Xperia X10'),
 (253319, 116141, 'en', 'Accessories'),
 (253320, 116142, 'en', 'Headphones'),
@@ -13505,7 +13505,7 @@ INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `n
 (254731, 143694, 'en', 'Doblo'),
 (254732, 143696, 'en', 'Doblo Cargo'),
 (254733, 143698, 'en', 'Doblo Combi');
-INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
+ INSERT IGNORE INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
 (254734, 143700, 'en', 'Ducato'),
 (254735, 143702, 'en', 'Fiorino'),
 (254736, 143704, 'en', 'Palio Van'),
@@ -14905,7 +14905,7 @@ INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `n
 (256130, 160504, 'en', 'U8230'),
 (256131, 160506, 'en', 'U1250'),
 (256132, 160508, 'en', 'U3100');
-INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
+ INSERT IGNORE INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
 (256133, 160512, 'en', 'U8220'),
 (256134, 160518, 'en', '1838T'),
 (256135, 160520, 'en', '1144 ACX'),
@@ -16358,7 +16358,7 @@ INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `n
 (257582, 177560, 'en', 'Telefunken'),
 (257583, 177562, 'en', 'Thomson'),
 (257584, 177564, 'en', 'Toshiba');
-INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
+ INSERT IGNORE INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
 (257585, 177566, 'en', 'Universum'),
 (257586, 177568, 'en', 'Vestel'),
 (257587, 177570, 'en', 'Watson'),
@@ -17810,7 +17810,7 @@ INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `n
 (259033, 185786, 'en', 'Case'),
 (259034, 185788, 'en', 'Caterpillar'),
 (259035, 185790, 'en', 'Çukurova Makina');
-INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
+ INSERT IGNORE INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
 (259036, 185796, 'en', 'Fermec - Çukurova'),
 (259037, 185798, 'en', 'Fiat Hitachi'),
 (259038, 185800, 'en', 'Ford'),
@@ -19286,7 +19286,7 @@ INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `n
 (260508, 198514, 'en', '2.0'),
 (260509, 198516, 'en', '2.0 HDi'),
 (260510, 198518, 'en', '2.2');
-INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
+ INSERT IGNORE INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
 (260511, 198522, 'en', '3.0'),
 (260512, 198524, 'en', '1.6'),
 (260513, 198528, 'en', '2.0'),
@@ -20717,7 +20717,7 @@ INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `n
 (261938, 201984, 'en', '25d xDrive'),
 (261939, 201987, 'en', 'Ascend P6'),
 (261940, 201988, 'en', 'Ascend Mate');
-INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
+ INSERT IGNORE INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
 (261941, 201990, 'en', 'GMK'),
 (261942, 201991, 'en', 'Jest'),
 (261943, 201992, 'en', '11+1'),
@@ -22212,7 +22212,7 @@ INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `n
 (263432, 204157, 'en', 'Eco Trawler 53 LD'),
 (263433, 204167, 'en', '750'),
 (263434, 204174, 'en', '255 FC');
-INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
+ INSERT IGNORE INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
 (263435, 204179, 'en', 'Rakser Sloop 650'),
 (263436, 204190, 'en', 'PowerShot G15'),
 (263437, 204191, 'en', 'PowerShot G16'),
@@ -23612,7 +23612,7 @@ INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `n
 (264831, 218917, 'en', 'BlueEfficiency  Urban'),
 (264832, 218918, 'en', 'AMG'),
 (264833, 218919, 'en', 'AMG');
-INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
+ INSERT IGNORE INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
 (264834, 218920, 'en', 'BlueEfficiency  Urban'),
 (264835, 218921, 'en', 'AMG'),
 (264836, 218922, 'en', 'Platinum'),
@@ -25014,7 +25014,7 @@ INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `n
 (266232, 221215, 'en', '2.5 DTI '),
 (266233, 221216, 'en', '2.8 DTi'),
 (266234, 221217, 'en', '1.9 D');
-INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
+ INSERT IGNORE INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
 (266235, 221218, 'en', '1.6 HDi '),
 (266236, 221219, 'en', '1.4 XR'),
 (266237, 221220, 'en', '1.4'),
@@ -26411,7 +26411,7 @@ INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `n
 (267628, 229779, 'en', '90 2.5 TDI'),
 (267629, 229781, 'en', '110 2.5 TD'),
 (267630, 229782, 'en', 'Kadjar');
-INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
+ INSERT IGNORE INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
 (267631, 229784, 'en', 'V Tab 7 Lite 3'),
 (267632, 229785, 'en', 'Easy Tab 7'),
 (267633, 229786, 'en', 'V Tab 7 Lite 2'),
@@ -27828,7 +27828,7 @@ INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `n
 (269044, 232412, 'en', 'CDH TE'),
 (269045, 232414, 'en', 'Orbit II 50'),
 (269046, 232419, 'en', 'Plus');
-INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
+ INSERT IGNORE INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
 (269047, 232420, 'en', '3.7'),
 (269048, 232421, 'en', 'Laredo'),
 (269049, 232422, 'en', 'Nova'),
@@ -29254,7 +29254,7 @@ INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `n
 (270469, 237404, 'en', 'Premium Pack'),
 (270470, 237405, 'en', 'Pure'),
 (270471, 237409, 'en', 'Premium Techno');
-INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
+ INSERT IGNORE INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
 (270472, 237410, 'en', 'i3'),
 (270473, 237411, 'en', 'i8'),
 (270474, 237413, 'en', 'Premium Techno'),
@@ -30675,7 +30675,7 @@ INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `n
 (271889, 239933, 'en', 'Shelters'),
 (271890, 239934, 'en', 'CBRN Shelters'),
 (271891, 239935, 'en', 'Mine Rescue Chamber');
-INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
+ INSERT IGNORE INTO `default_cats_category_translations` (`id`, `entry_id`, `locale`, `name`) VALUES
 (271892, 239936, 'en', 'Earthquake & Panic Rooms'),
 (271893, 239938, 'en', 'Irizar'),
 (271894, 239939, 'en', 'i6'),
