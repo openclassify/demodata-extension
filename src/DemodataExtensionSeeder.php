@@ -16,10 +16,12 @@ class DemodataExtensionSeeder extends Seeder
         $categories = str_replace('{application_reference}', $application_reference, file_get_contents(realpath(dirname(__DIR__)) . '/src/Seed/Data/categories.sql'));
         $categoriesTrans = str_replace('{application_reference}', $application_reference, file_get_contents(realpath(dirname(__DIR__)) . '/src/Seed/Data/categoryTransEn.sql'));
         $advs = str_replace('{application_reference}', $application_reference, file_get_contents(realpath(dirname(__DIR__)) . '/src/Seed/Data/advs.sql'));
+        $customfields = str_replace('{application_reference}', $application_reference, file_get_contents(realpath(dirname(__DIR__)) . '/src/Seed/Data/customfields.sql'));
         Model::unguard();
         DB::unprepared($advs);
         DB::unprepared($categories);
         DB::unprepared($categoriesTrans);
+        DB::unprepared($customfields);
         Model::reguard();
         $zip = new \ZipArchive();
         $zip->open(realpath(dirname(__DIR__)) . '/src/Seed/Data/images.zip', ZipArchive::CREATE);
