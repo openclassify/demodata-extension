@@ -52,7 +52,7 @@ class DemodataExtensionSeeder extends Seeder
         DB::unprepared($advs);
         DB::unprepared($categories);
         DB::unprepared($categoriesTrans);
-        if (is_module_installed()){
+        if (is_module_installed('visiosoft.module.customfields')){
             $customfields = str_replace('{application_reference}', $application_reference, file_get_contents(realpath(dirname(__DIR__)) . '/src/Seed/Data/customfields.sql'));
             DB::unprepared($customfields);
         }
