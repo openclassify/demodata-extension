@@ -71,8 +71,10 @@ class DemodataExtensionSeeder extends Seeder
         $zip->open(realpath(dirname(__DIR__)) . '/src/Seed/Data/cats.zip', ZipArchive::CREATE);
         $zip->extractTo(storage_path('streams/' . $application_reference . '/files-module/local/category_icon/'));
         $zip->close();
+
         //Sync Files
-        $this->command->call('files:sync');
+        Artisan::call('files:sync');
+        Artisan::call('refresh');
         Artisan::call('assets:clear');
     }
 }
